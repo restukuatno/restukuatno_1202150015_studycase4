@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.android.restukuatno_1202150015_studycase4.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="MAIN MENU"
+        android:textSize="18dp"
+        android:id="@+id/mainMenu" />
+
+    <Button
+        android:id="@+id/list_nama_mahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:onClick="tampilNama"
+        android:text="List Nama Mahasiswa" />
+
+    <Button
+        android:id="@+id/cari_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_nama_mahasiswa"
+        android:layout_centerHorizontal="true"
+        android:onClick="cariGambar"
+        android:text="Cari Gambar" />
+
+</RelativeLayout>
+
+
